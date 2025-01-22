@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Lesser Panda Portfolio" />
+    <meta
+      property="og:description"
+      content="Discover the fascinating journey and projects of Lesser Panda."
+    />
+    <meta
+      property="og:image"
+      content="https://www.wwfkorea.or.kr/filedata/images/sub/campaign/wild/img_wild_view03.jpg"
+    />
+    <meta property="og:url" content="URL" />
+    <link
+      rel="icon"
+      href="https://www.wwfkorea.or.kr/filedata/images/sub/campaign/wild/img_wild_view03.jpg"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap"
+      rel="stylesheet"
+    />
+    <title>Lesser Panda Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        padding-top: 56px; /* Adjust body padding to accommodate fixed navbar */
+        font-family: "Noto Sans KR", sans-serif;
+      }
+      .jumbotron {
+        background-color: #e9ecef;
+        padding: 2rem 1rem;
+        margin-bottom: 2rem;
+        border-radius: 0.3rem;
+      }
+      .card-img-top {
+        max-height: 200px;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Lesser Panda</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="container">
+      <div class="jumbotron text-center">
+        <h1 class="display-4">Welcome to the World of Lesser Panda!</h1>
+        <p class="lead">
+          Discover the fascinating journey and projects of Lesser Panda.
+        </p>
+        <hr class="my-4" />
+        <p>Explore our innovative solutions and creative designs.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </div>
+    </div>
+
+    <!-- Cards -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://www.wwfkorea.or.kr/filedata/images/sub/campaign/wild/img_wild_view03.jpg"
+              class="card-img-top"
+              alt="Project 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Ailurus_fulgens_-_Safaripark_Beekse_Bergen.jpg/800px-Ailurus_fulgens_-_Safaripark_Beekse_Bergen.jpg"
+              class="card-img-top"
+              alt="Project 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Project 2</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Red_Panda_%2824986761703%29.jpg/800px-Red_Panda_%2824986761703%29.jpg"
+              class="card-img-top"
+              alt="Project 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Project 3</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container mt-5">
+      <!-- Button trigger modal -->
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+      >
+        Launch demo modal
+      </button>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">...</div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">
+                Save changes
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Toast -->
+    <div class="container mt-5">
+      <button type="button" class="btn btn-primary" id="liveToastBtn">
+        Show live toast
+      </button>
+
+      <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div
+          id="liveToast"
+          class="toast"
+          role="alert"
+          aria-live="assertive"
+          aria-atomic="true"
+        >
+          <div class="toast-header">
+            <strong class="me-auto">Bootstrap</strong>
+            <small>11 mins ago</small>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="toast"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="toast-body">Hello, world! This is a toast message.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Spinner -->
+    <div class="container mt-5 d-flex justify-content-center">
+      <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+
+    <footer class="mt-5 py-3 bg-light">
+      <div class="container text-center">
+        <p>&copy; 2025 Lesser Panda. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies (optional) -->
+    <script>
+      const toastTrigger = document.getElementById("liveToastBtn");
+      const toastLiveExample = document.getElementById("liveToast");
+      if (toastTrigger) {
+        toastTrigger.addEventListener("click", () => {
+          const toast = new bootstrap.Toast(toastLiveExample);
+
+          toast.show();
+        });
+      }
+    </script>
+
+    <!-- Bootstrap JS and dependencies (optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
